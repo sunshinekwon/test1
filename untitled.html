@@ -1,0 +1,34 @@
+<!Doctype html>
+    <head>
+        <meta charset = "utf-8">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <title>untitled</title>
+    </head>
+
+    <body>
+        <script>
+        var object = {
+            "teacher":"jinwon",
+            "student":"hojin"
+        }
+        object["neighborhood student"]="hyunsu";
+        document.write("친구개발자 : "+object["neighborhood student"]+"<br>");
+
+        for(var key in object){
+            document.write(key+" : "+object[key]+"<br>");
+        }
+        var body = {
+            setcolor:function (color){
+                document.querySelector('body').style.color= color;
+            }
+        }
+        var link ={
+
+        
+        linkcolor:function(color){
+            $('a').css("color",color);
+        }
+    }
+    link.linkcolor(powderblue);
+    </script>
+    </body>

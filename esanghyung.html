@@ -41,7 +41,7 @@
                 var joongbok = true;
                 
                 while(count<listlength1) {
-                    var rd = ParseInt(listlength1*Math.random()-1);
+                    var rd = ParseInt(listlength1*(Math.random()-1));
                     
                     for(i = 0; i<count; i++){
                         if(mixedlist[i] === rd)
@@ -65,7 +65,7 @@
                 var newlist = newArray();
         </script>
 
-        <input type="button" value="img1" onclick="newarray(0)=list[mixedlist[i]]"> <h1>vs</h1> 
+        <input type="button" value="img1" onclick="newarray(0)=list[mixedlist[i]]; "> <h1>vs</h1> 
         <input type="button" value="img2" onclick="newarray(0)=list[mixedlist[i+1]]">
 
 
